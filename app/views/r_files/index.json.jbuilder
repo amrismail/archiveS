@@ -1,0 +1,1 @@
+json.array! @r_files, partial: 'r_files/r_file', as: :r_file

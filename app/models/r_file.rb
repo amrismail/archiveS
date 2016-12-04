@@ -1,0 +1,2 @@
+class RFile < ApplicationRecord
+end

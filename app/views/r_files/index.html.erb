@@ -1,0 +1,41 @@
+<p id="notice"><%= notice %></p>
+
+<h1>R Files</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Date</th>
+      <th>Reporter</th>
+      <th>Uploader</th>
+      <th>Event</th>
+      <th>Place</th>
+      <th>Access</th>
+      <th>Url</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @r_files.each do |r_file| %>
+      <tr>
+        <td><%= r_file.name %></td>
+        <td><%= r_file.date %></td>
+        <td><%= r_file.reporter %></td>
+        <td><%= r_file.uploader %></td>
+        <td><%= r_file.event %></td>
+        <td><%= r_file.place %></td>
+        <td><%= r_file.access %></td>
+        <td><%= r_file.URL %></td>
+        <td><%= link_to 'Show', r_file %></td>
+        <td><%= link_to 'Edit', edit_r_file_path(r_file) %></td>
+        <td><%= link_to 'Destroy', r_file, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New R File', new_r_file_path %>

@@ -1,0 +1,1 @@
+json.partial! "r_files/r_file", r_file: @r_file

@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  date: 2016-12-04
+  reporter: MyString
+  uploader: 1
+  event: MyString
+  place: MyString
+  access: 1
+  URL: MyString
+
+two:
+  name: MyString
+  date: 2016-12-04
+  reporter: MyString
+  uploader: 1
+  event: MyString
+  place: MyString
+  access: 1
+  URL: MyString
